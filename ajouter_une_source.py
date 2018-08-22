@@ -1,7 +1,7 @@
 #-*- coding: utf-8 -*-
 #Vstream https://github.com/Kodi-vStream/venom-xbmc-addons
-# Votre nom ou pseudo
-from resources.lib.gui.hoster import cHosterGui #systeme de recherche pour l'hote
+# 077cedricserie
+from resources.lib.gui.hoster import cGui #systeme de recherche pour l'hote
 from resources.lib.gui.gui import cGui #systeme d'affichage pour xbmc
 from resources.lib.handler.inputParameterHandler import cInputParameterHandler #entree des parametres
 from resources.lib.handler.outputParameterHandler import cOutputParameterHandler #sortie des parametres
@@ -13,11 +13,11 @@ from resources.lib.comaddon import progress, VSlog #import du dialog progress
 
 #Si vous créez une source et la deposez dans le dossier "sites" elle sera directement visible sous xbmc
 
-SITE_IDENTIFIER = 'ajouter_une_source' #identifant (nom de votre fichier) remplacez les espaces et les . par _ AUCUN CARACTERE SPECIAL
-SITE_NAME = 'ajouter_une_source' #nom que xbmc affiche
+SITE_IDENTIFIER = 'Extreme down' #identifant (nom de votre fichier) remplacez les espaces et les . par _ AUCUN CARACTERE SPECIAL
+SITE_NAME = 'Extreme down' #nom que xbmc affiche
 SITE_DESC = 'films en streaming, streaming hd, streaming 720p, Films/séries, récent' #description courte de votre source
 
-URL_MAIN = 'http://le_site.org/' #url de votre source
+URL_MAIN = 'https://ww1.extreme-dOwn.com/' #url de votre source
 
 #definis les url pour les catégories principale, ceci est automatique, si la definition est présente elle sera affichee.
 #LA RECHERCHE GLOBAL N'UTILE PAS showSearch MAIS DIRECTEMENT LA FONCTION INSCRITE DANS LA VARIABLE URL_SEARCH_*
